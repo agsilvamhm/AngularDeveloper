@@ -6,7 +6,7 @@
 
 ### Base para a contrução de um compoente
 
-class 'Classe do compoente' extends HTMLElement {
+class 'Classe do compoente' extends HTMLElement { /b
     constructor() {
       super();
       const shadow = this.attachShadow({mode: "open"})
