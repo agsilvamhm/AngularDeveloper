@@ -1,0 +1,11 @@
+npm init -y    => Este comando irá iniciar um projeto do tipo Node.
+
+npm install typescript -D    => Instala a dependência em typescript mas só em desenvolvimento
+
+O node só entende o javaScript e não o typescript
+
+npx tsc arquivo_typescript.ts    => Este comando irá transpilar o arquivo typescript para javaScript, ele vai criar um outro arquivo em javascript
+
+npx tsc --init   -> vai criar um arquivo de configuração do typescript, e este arquivo vai dizer como o typescript vai se comportar.
+
+no arquivo tsconfig.json retire os comentários do  "rootDir": "./src",  e do  "outDir": "./dist",  ao executar o comando npx tsc, automaticamente os arquivos serão transpilados e movidos do src para o dist.
