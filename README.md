@@ -14,3 +14,5 @@ class 'Classe do compoente' extends HTMLElement { \
 }   
 
 customElements.define("nova-tag", Classe do componente)  
+
+## Módulo 02 - TypeScript para Angular
