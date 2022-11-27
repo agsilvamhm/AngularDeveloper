@@ -18,3 +18,4 @@ customElements.define("nova-tag", Classe do componente)
 ## Módulo 02 - TypeScript para Angular
 ## Módulo 03 - TypeScript para Angular
 ## Módulo 04 - TypeScript para Angular
+## Módulo 05 - TypeScript para Angular
