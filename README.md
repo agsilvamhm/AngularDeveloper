@@ -27,5 +27,6 @@ index.html = É o arquivo raiz, dentro dele só terá o arquivo raiz.
 main.ts = É o arquivo que ajuda a inicializar o seu projeto.
 polifils.ts = É o arquivo responsável em deixar compátivel com navegadores mais antigos.
 
-## Módulo 04 - TypeScript para Angular
-## Módulo 05 - TypeScript para Angular
+## Módulo 04 - Single Page Application com Angular
+*ngIf = Recebe os valores true ou false, serve para esconder um componente, true é o padrão, exibe o componente e com o valor false o componente é ocultado
+Exemplo: <p *nfIf="false">Texto</p>  neste exemplo o parágrafo não é exibido na aplicação.
