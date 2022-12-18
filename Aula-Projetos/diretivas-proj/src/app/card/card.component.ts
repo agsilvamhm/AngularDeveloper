@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
+
 export class CardComponent implements OnInit {
   produtos: string[] = []
   constructor() {
@@ -17,7 +18,14 @@ export class CardComponent implements OnInit {
     ]
   }
 
-  ngOnInit(): void {
+  adicionar(){
+    this.produtos.push("Adalberto")
   }
 
+  remover(index: number){
+     this.produtos.splice(index,1)
+  }
+
+  ngOnInit(): void {
+  }
 }

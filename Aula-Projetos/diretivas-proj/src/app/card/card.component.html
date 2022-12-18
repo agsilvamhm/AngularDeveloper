@@ -2,5 +2,8 @@
 <p>card works!</p>
 <button>Exemplo</button>
 <ul>
-  <li *ngFor="let item of produtos">{{item}}</li>
+  <li *ngFor="let item of produtos; let i = index "
+     (click)="remover(i)"
+     >{{i}} - {{item}}</li>
+  <button (click)="adicionar()">Adicionar Item</button>
 </ul>
